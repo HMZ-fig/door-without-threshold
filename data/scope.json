@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "generated_for": "The Door Without a Threshold (ePrint draft)",
+  "doors": {
+    "owner": "source",
+    "delegate": "source",
+    "admin": "source",
+    "verifier_set": "source",
+    "dest_owner": "both",
+    "dest_receive_config": "none"
+  },
+  "status": "dest_owner resolved at a pinned block; receive configuration unread",
+  "source_read": {
+    "chain": "arbitrum",
+    "class_block": 522563681,
+    "probe_block": 522662885
+  },
+  "dest_read": {
+    "chain": "ethereum",
+    "eid": 30101,
+    "block": 26377295,
+    "status": "resolved",
+    "artifact": "data/receive.json"
+  },
+  "counts": {
+    "d1_lanes": 740,
+    "d2_lanes": 730,
+    "n_peer_resolved": 181,
+    "n_peer_missing": 549,
+    "n_owner_agree": 117,
+    "n_owner_disagree": 58,
+    "n_owner_unreadable": 6,
+    "n_owner_compared": 175,
+    "dest_single_key": 2,
+    "dest_unreadable": 79,
+    "dest_ge2": 100,
+    "missing_zero_peer": 59,
+    "missing_no_return": 478,
+    "missing_empty_word": 12
+  },
+  "same_subject_definition": "owner(peer) == owner(source OApp); compared only where both owners are readable (117 + 58 = 175); the remaining 6 of 181 expose no destination owner",
+  "invariants": [
+    "n_peer_resolved + n_peer_missing = 730",
+    "n_owner_agree + n_owner_disagree + n_owner_unreadable = n_peer_resolved",
+    "missing_zero_peer + missing_no_return + missing_empty_word = n_peer_missing",
+    "source-side numbers (395/354/107/608/62/60/730) do not change with destination readings"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "note": "one row per Table 4 row; each row must name a runnable check",
+  "rows": [
+    {
+      "id": "B01",
+      "boundary": "catalogue recall",
+      "check": "values.py catalogue coverage (data/catalogue.json)",
+      "status": "open"
+    },
+    {
+      "id": "B02",
+      "boundary": "one destination",
+      "check": "scope.json dest block is a fixed integer",
+      "status": "open"
+    },
+    {
+      "id": "B03",
+      "boundary": "two source chains",
+      "check": "values.py base_lanes == 738",
+      "status": "pass"
+    },
+    {
+      "id": "B04",
+      "boundary": "overlapping owner sets",
+      "check": "values.py cross_owners == 131",
+      "status": "pass"
+    },
+    {
+      "id": "B05",
+      "boundary": "undetermined lanes",
+      "check": "values.py und_d2 == 107",
+      "status": "pass"
+    },
+    {
+      "id": "B06",
+      "boundary": "phantom entries",
+      "check": "values.py cls_T6 == 10",
+      "status": "pass"
+    },
+    {
+      "id": "B07",
+      "boundary": "exposure not harm",
+      "check": "no price data in data/",
+      "status": "pass"
+    },
+    {
+      "id": "B08",
+      "boundary": "block-time snapshot",
+      "check": "scope.json blocks are integers",
+      "status": "pass"
+    },
+    {
+      "id": "B09",
+      "boundary": "lanes are not traffic",
+      "check": "values.py packets_total == 694619",
+      "status": "pass"
+    },
+    {
+      "id": "B10",
+      "boundary": "sender to owner mapping",
+      "check": "unmapped share 3.5%",
+      "status": "pass"
+    },
+    {
+      "id": "B11",
+      "boundary": "role systems not enumerated",
+      "check": "values.py cls_T2 == 56",
+      "status": "pass"
+    },
+    {
+      "id": "B12",
+      "boundary": "multisig sets rotate",
+      "check": "no stability claim beyond the pinned block",
+      "status": "pass"
+    },
+    {
+      "id": "B13",
+      "boundary": "third-chain phantoms",
+      "check": "phantom rule in code/predicates.py",
+      "status": "pass"
+    },
+    {
+      "id": "B14",
+      "boundary": "capability is not exploitability",
+      "check": "no exploit ordering shipped",
+      "status": "pass"
+    },
+    {
+      "id": "B15",
+      "boundary": "classes describe what the chain exposes",
+      "check": "cls_* sum == 132",
+      "status": "pass"
+    }
+  ]
+}

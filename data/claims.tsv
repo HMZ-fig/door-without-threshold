@@ -1,0 +1,74 @@
+id	number	where	command	expected_regex
+C01	740	Table 1	python3 code/values.py d1_lanes	^740$
+C02	730	Table 1	python3 code/values.py d2_lanes	^730$
+C03	395	abstract, Table 1	python3 code/values.py eq1_d2	^395$
+C04	54.1	abstract	python3 code/values.py pct_eq1	^54.1$
+C05	228	Table 1	python3 code/values.py ge2_d2	^228$
+C06	31.2	Table 1	python3 code/values.py pct_ge2	^31.2$
+C07	107	abstract, Table 1	python3 code/values.py und_d2	^107$
+C08	14.7	Table 1	python3 code/values.py pct_und	^14.7$
+C09	10.3	abstract, Table 1	python3 code/values.py pct_pk_eq1	^10.3$
+C10	49.5	Table 1	python3 code/values.py pct_pk_ge2	^49.5$
+C11	40.2	abstract, Table 1	python3 code/values.py pct_pk_und	^40.2$
+C12	694,619	abstract	python3 code/values.py packets_total	^694619$
+C13	57.0	abstract	python3 code/values.py top3_owners_pct	^57.0$
+C14	225	abstract, Table 1	python3 code/values.py distinct_owners	^225$
+C15	221	Table 1	python3 code/values.py eoa_owners	^221$
+C16	131	abstract	python3 code/values.py cross_owners	^131$
+C17	212	abstract	python3 code/values.py cross_lanes	^212$
+C18	59.9	abstract	python3 code/values.py pct_cross_lanes	^59.9$
+C19	122	abstract, Table 3	python3 code/values.py blank_d2	^122$
+C20	132	abstract, Table 3	python3 code/values.py blank_d1	^132$
+C21	15	Section 5	python3 code/values.py decided_d2	^15$
+C22	608	Figure 1	python3 code/values.py state_threshold	^608$
+C23	62	Figure 1	python3 code/values.py state_unreadable	^62$
+C24	60	Figure 1	python3 code/values.py state_absent	^60$
+C25	56	Table 3	python3 code/values.py cls_T2	^56$
+C26	54	Table 3	python3 code/values.py cls_T5b	^54$
+C27	6	Table 3	python3 code/values.py cls_T4	^6$
+C28	5	Table 3	python3 code/values.py cls_T3c	^5$
+C29	1	Table 3	python3 code/values.py cls_T3	^1$
+C30	10	Table 3	python3 code/values.py cls_T6	^10$
+C31	354	Table 1	python3 code/values.py weak_lanes	^354$
+C32	67.9	Section 6	python3 code/values.py bound_single_key_excl_closed	^67.9$
+C33	133	Section 3	python3 code/values.py two_doors_d2	^133$
+C34	200	Section 3	python3 code/values.py two_doors_base	^200$
+C35	48.9	Section 3	python3 code/values.py two_doors_base_share	^48.9$
+C36	409	Section 3	python3 code/values.py base_eq1	^409$
+C37	358	Section 3	python3 code/values.py base_owner_single	^358$
+C38	738	Section 3	python3 code/values.py base_lanes	^738$
+C39	181	Section 3	python3 code/values.py dest_resolved	^181$
+C40	549	Section 3	python3 code/values.py dest_missing	^549$
+C41	2	Section 3	python3 code/values.py dest_single	^2$
+C42	79	Section 3	python3 code/values.py dest_unreadable	^79$
+C43	100	Section 3	python3 code/values.py dest_ge2	^100$
+C44	269	Section 3	python3 code/values.py dest_single_packets	^269$
+C45	33.7	Section 3	python3 code/values.py two_doors_d2_share	^33.7$
+C46	22.8	Section 3	python3 code/values.py top1_owners_pct	^22.8$
+C47	67.9	Table 1	python3 code/values.py bound_single_key_excl_closed	^67.9$
+C48	184	Section 3	python3 code/values.py active_lanes	^184$
+C49	71,669	Table 1	python3 code/values.py pk_eq1	^71669$
+C50	343,672	Table 1	python3 code/values.py pk_ge2	^343672$
+C51	279,278	Table 1	python3 code/values.py pk_und	^279278$
+C52	361,550	Section 3	python3 code/values.py top3_lanes_packets	^361550$
+C53	52.1	Section 3	python3 code/values.py top3_lanes_pct	^52.1$
+C54	26	Section 3	python3 code/values.py und_active_lanes	^26$
+C55	117	Section 3	python3 code/get_scope_count.py n_owner_agree	^117$
+C56	58	Section 3	python3 code/get_scope_count.py n_owner_disagree	^58$
+C57	175	Section 3	python3 code/get_scope_count.py n_owner_compared	^175$
+C58	639	Table 1	python3 code/values.py d3_lanes	^639$
+C59	610	Table 1	python3 code/values.py base_d4	^610$
+C60	105	Table 1	python3 code/values.py base_und	^105$
+C61	58.2	Table 1	python3 code/values.py arb_share_readable	^58.2$
+C62	58.7	Table 1	python3 code/values.py base_share_readable	^58.7$
+C63	87.5	Table 1	python3 code/values.py base_share_single_of_weak	^87.5$
+C64	89.6	Table 1	python3 code/values.py arb_share_single_of_weak	^89.6$
+C65	25,509	Table 4	python3 code/values.py unmapped_packets	^25509$
+C66	59	Section 3	python3 code/values.py dest_zero_peer	^59$
+C67	140	Section 3	python3 code/values.py dest_revert	^140$
+C69	478	Section 3	python3 code/values.py dest_no_return	^478$
+C70	12	Section 3	python3 code/values.py dest_empty_word	^12$
+C71	74	Section 3	python3 code/values.py dest_src_single	^74$
+C72	40.9	Section 3	python3 code/values.py dest_src_single_share	^40.9$
+C68	55.4	Table 1	python3 code/values.py base_share_eq1	^55.4$
+C73	138	Section 3	python3 code/values.py dest_revert_plain	^138$

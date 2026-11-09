@@ -1,0 +1,6 @@
+﻿*.aux
+*.log
+*.out
+*.pyc
+__pycache__/
+main-tmp.pdf
