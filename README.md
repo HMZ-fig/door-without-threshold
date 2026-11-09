@@ -80,4 +80,5 @@ any price or value data — the paper claims no harm estimate
 
 ## Licence
 
-Code: MIT. Data tables: CC BY 4.0. Both to be confirmed by the author before public release.
+Code under `code/` is released under the MIT licence (`LICENSE`). Data under `data/` is released under
+CC BY 4.0 (`LICENSE-DATA`).
