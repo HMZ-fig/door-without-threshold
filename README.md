@@ -1,5 +1,7 @@
 # Artifact — The Door Without a Threshold
 
+**Repository.** <https://github.com/HMZ-fig/door-without-threshold>
+
 **Purpose.** Reproduce every number in the paper from released data, without network access.
 
 ## Quick start
