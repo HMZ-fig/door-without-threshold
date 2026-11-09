@@ -72,3 +72,7 @@ C71	74	Section 3	python3 code/values.py dest_src_single	^74$
 C72	40.9	Section 3	python3 code/values.py dest_src_single_share	^40.9$
 C68	55.4	Table 1	python3 code/values.py base_share_eq1	^55.4$
 C73	138	Section 3	python3 code/values.py dest_revert_plain	^138$
+C74	905	Section 3	python3 code/values.py senders_total	^905$
+C75	184	Section 3	python3 code/values.py senders_in_catalogue	^184$
+C76	20.3	Section 3	python3 code/values.py pct_senders_in_catalogue	^20.3$
+C77	96.5	Section 3	python3 code/values.py pct_packets_from_catalogue	^96.5$
